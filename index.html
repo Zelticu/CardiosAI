@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Coin Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Red banner at the top */
+        .banner {
+            background-color: red;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        /* Main content area */
+        .content {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .content img {
+            max-width: 200px;
+            height: auto;
+        }
+
+        .content p {
+            max-width: 600px;
+            font-size: 1.1em;
+            line-height: 1.5em;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .content p {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="banner">
+        My Coin
+    </div>
+
+    <div class="content">
+        <img src="https://i.imgur.com/tRPVpGS.png" alt="Coin Logo">
+        <p>
+            [Insert your coin summary here.]  
+            This paragraph can describe the coin’s purpose, technology, team, or anything you want visitors to know.
+        </p>
+    </div>
+
+</body>
+</html>
